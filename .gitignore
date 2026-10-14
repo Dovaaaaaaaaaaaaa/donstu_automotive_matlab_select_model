@@ -6,3 +6,4 @@ slprj/
 *.asv
 *.mex*
 *.log
+*_grt_rtw/
