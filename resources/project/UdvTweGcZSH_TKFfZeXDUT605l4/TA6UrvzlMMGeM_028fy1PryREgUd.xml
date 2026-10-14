@@ -69,8 +69,28 @@
                     <entry key="Visible" value="0"/>
                 </node>
             </path>
+            <path value="211d1e4f-c1be-4c12-a789-7e4991ef04cf:type:EntryPoint">
+                <node name="Info">
+                    <entry key="File" value="temp_sensor_log.slx"/>
+                    <entry key="GroupUUID" value=""/>
+                    <entry key="Icon" value=""/>
+                    <entry key="Name" value="Open Log Sensor Model"/>
+                    <entry key="Type" value="Basic"/>
+                    <entry key="Visible" value="1"/>
+                </node>
+            </path>
         </path>
         <path value="Root:type:Files">
+            <path value="log_hello.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry key="UUID" value="FileClassCategory"/>
+                        <node name="Label">
+                            <entry key="UUID" value="design"/>
+                        </node>
+                    </node>
+                </node>
+            </path>
             <path value="startup_temp_sensor_log.m:type:File">
                 <node name="Info">
                     <node name="Category">
@@ -103,11 +123,14 @@
     </MetadataNode>
     <Files>
         <File path=".gitignore" value="b22492bf"/>
+        <File path="log_hello.m" value="c02efaac"/>
         <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/EDetoTl-JgnqszLXlp3gPrvOynAd.xml" value="50727024"/>
         <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/EDetoTl-JgnqszLXlp3gPrvOynAp.xml" value="2ac97020"/>
         <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA" value="-1"/>
         <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/C4Mlwcmt_JH8ozDCV54yVBrfggQd.xml" value="9afb2bae"/>
         <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/C4Mlwcmt_JH8ozDCV54yVBrfggQp.xml" value="a025749d"/>
+        <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/zIVlNSugZVUGlXACVkVyGVxl3dAd.xml" value="ca8f4355"/>
+        <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/zIVlNSugZVUGlXACVkVyGVxl3dAp.xml" value="1ff322f6"/>
         <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E" value="-1"/>
         <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4d.xml" value="a915d71c"/>
         <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4p.xml" value="afe046a3"/>
@@ -130,6 +153,8 @@
         <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k" value="-1"/>
         <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/-h7rhrtkvx2KqMWmFiYTFFk_fwgd.xml" value="ea65cf7"/>
         <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/-h7rhrtkvx2KqMWmFiYTFFk_fwgp.xml" value="426e87a6"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/2IAkamr9bt4n1FHLiNKnuNK0jHUd.xml" value="317cfbea"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/2IAkamr9bt4n1FHLiNKnuNK0jHUp.xml" value="a79e51f9"/>
         <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/yq5lxrWZ5kyo1oqfdS56jh0xhBYd.xml" value="ea65cf7"/>
         <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/yq5lxrWZ5kyo1oqfdS56jh0xhBYp.xml" value="8543aa3f"/>
         <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ" value="-1"/>
@@ -145,8 +170,8 @@
         <File path="resources/project" value="-1"/>
         <File path="resources" value="-1"/>
         <File path="startup_temp_sensor_log.m" value="a0a152e6"/>
+        <File path="temp_sensor_log.prj" value="fe84b66d"/>
         <File path="temp_sensor_log.slx" value="295c6c91"/>
-        <File path="temp_sensor_log_repo.prj" value="fe84b66d"/>
     </Files>
-    <Date value="14 октября 2026 г. 9:51:04"/>
+    <Date value="14 октября 2026 г. 11:30:53"/>
 </Info>
